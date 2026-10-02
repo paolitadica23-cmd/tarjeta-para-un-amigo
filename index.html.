@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Un Gran Amigo ☀️</title>
+    <style>
+        body {
+            /* Fondo de cielo con degradado */
+            background: linear-gradient(to bottom, #87CEEB 0%, #E0F7FA 100%);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+        }
+        .card {
+            background: #ffffff;
+            border-radius: 20px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+            max-width: 480px;
+            width: 100%;
+            padding: 30px;
+            text-align: center;
+            border: 2px solid #B3E5FC; /* Borde azul clarito */
+        }
+        h1 {
+            color: #0277BD; /* Azul fuerte para el título */
+            font-size: 1.6rem;
+            margin-bottom: 25px;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+        }
+        p {
+            color: #37474F;
+            line-height: 1.7;
+            text-align: justify;
+            font-size: 1.05rem;
+            white-space: pre-line;
+            background: #fcfcfc;
+            padding: 15px;
+            border-radius: 10px;
+        }
+        button {
+            /* Botón amarillo brillante "de energía" */
+            background-color: #FDD835;
+            color: #000;
+            border: none;
+            padding: 15px 25px;
+            font-size: 1rem;
+            font-weight: bold;
+            border-radius: 30px;
+            cursor: pointer;
+            margin-top: 25px;
+            transition: all 0.3s ease;
+            width: 100%;
+            box-shadow: 0 4px 10px rgba(253, 216, 53, 0.4);
+        }
+        button:hover {
+            background-color: #FBC02D;
+            transform: translateY(-2px); /* Pequeño salto al pasar el mouse */
+            box-shadow: 0 6px 15px rgba(253, 216, 53, 0.5);
+        }
+    </style>
+</head>
+<body>
+
+<div class="card">
+    <h1>¡Arriba ese ánimo, amigo! 🤜🤛</h1>
+    <p>
+        Hola:
+
+        Te escribo esto rápido solo para recordarte algo importante: eres una persona increíble y muy capaz.
+
+        Sé que a veces las cosas no salen como uno quiere y que hay días en los que todo se siente cuesta arriba. Pero los momentos difíciles no definen quién eres, solo te hacen más fuerte.
+
+        No pierdas la paciencia ni la fe en ti mismo. Sigue intentándolo, a tu ritmo. Tienes todo mi apoyo y estoy aquí para lo que necesites, sea para hablar o para despejar la mente.
+
+        ¡Las cosas buenas ya van a llegar! Abrazo enorme.
+    </p>
+    <button onclick="mostrarMensaje()">Haz clic para enviar buena energía ☀️🌊</button>
+</div>
+
+<script>
+    function mostrarMensaje() {
+        alert("¡Ondeada de buena energía enviada! ☀️✨\n¡Todo va a salir bien, dale con toda!");
+    }
+</script>
+
+</body>
+</html>
